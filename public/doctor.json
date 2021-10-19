@@ -1,0 +1,66 @@
+[
+    {
+        "id":1,
+        "name":"Professor Dr. AKM Fazlul Hoque",
+        "phone":"01755697175",
+        "MainChamber":" Eden Multi-Care Hospital ",
+        "Degree":"MBBS, FCPS, FICS (USA)",
+        "img":"https://www.mawbiz.com.bd/application/views/module/product_image/Prof._Dr_._AKM_Fazlul_Haque__1.jpg"
+    },
+    {
+        "id":2,
+        "name":"Professor Dr. Mahbub H Khan",
+        "phone":"01755697171",
+        "MainChamber":"  John Hunter University Hospital  ",
+        "Degree":"MBBS, PhD -Liver Med (Sydney Uni)",
+        "img":"https://1.bp.blogspot.com/-8usoaxM57fg/YK6AlLjRwOI/AAAAAAAAFjE/R40h0-Grc50117PmciX6NT6_lxpZ-2ZUwCPcBGAsYHg/s1200/Prof.%2BDr.%2BMahbub%2BH%2BKhan.jpg"
+    },
+    {
+        "id":3,
+        "name":"Dr. Mohammad Jahangir Talukder",
+        "phone":"02 9852466",
+        "MainChamber":" Male Internal Medicine in Bangladesh ",
+        "Degree":"MBBS, MRCP (uk)",
+        "img":"https://thehospitalinfo.com/wp-content/uploads/2020/10/professor-dr-syed-atiqul-haq.jpg"
+    },
+    {
+        "id":4,
+        "name":"Professor Dr. Sheikh Nesaruddin Ahmed",
+        "phone":"01755697173",
+        "MainChamber":" Labaid Specialized Hospital LTD ",
+        "Degree":" MBBS, DTM & H, MRCP (Edin), FRCP(Edin), FCPS",
+        "img":"data:image/jpeg;base64,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"
+    },
+    {
+        "id":5,
+        "name":"Professor Dr. H A M Nazmul Ahsan",
+        "phone":"01755697176",
+        "MainChamber":" AALOK HEALTH CARE LTD ",
+        "Degree":"MBBS, FCPS, FRCP(Glassgow), FRCP(Edin), FACP(USA) ",
+        "img":"https://i.ytimg.com/vi/rZy11RTqDdM/maxresdefault.jpg"
+    },
+    {
+        "id":6,
+        "name":"Professor Dr. Ferdous Ara J. Janan",
+        "phone":"01755697177",
+        "MainChamber":" General Physician in Shyamoli ",
+        "Degree":"FCPS; FRCP. Designation",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBNTjpuBZHoBPWbJdaIipGp11ezN7OQVaPHGJLt5UMhB30JE7o2vm8IO4KnrHzPOmW56I&usqp=CAU"
+    },
+    {
+        "id":7,
+        "name":"Professor Dr. A K M Musa",
+        "phone":"01755697178",
+        "MainChamber":"Medicine Department MYMENSINGH MEDICAL COLLEGE AND HOSPITAL",
+        "Degree":" MBBS (Dhk), FCPS (Medicine), MCPS (Medicine), DTCD (Dhk)",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF1XnkGHZ-zjVOV3XYJ_9lrQhfFtOlrRIksQ&usqp=CAU"
+    },
+    {
+        "id":8,
+        "name":"Professor Dr. R. K. Saha",
+        "phone":"01755697179",
+        "MainChamber":"Head of Medicine Department Women Medical College Hospital",
+        "Degree":"MBBS (Dhaka), FCPS (Medicine) ",
+        "img":"https://en.bdfish.org/wp-content/uploads/2016/04/TGFOA_Prof_Saha.jpg"
+    } 
+]
