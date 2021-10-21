@@ -5,14 +5,18 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
 import NotFound from './components/NotFound/NotFound';
-import SingleService from './components/SingleService/SingleService';
 import Doctor from './Doctor/Doctor';
 import AboutUS from './components/About/AboutUS';
 import Login from './components/Login/Login';
+import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
+import SingleService from './components/SingleService/SingleService';
+import Registration from './components/Registration/Registration';
+
 function App() {
   return (
     <div className="App">
+      <AuthProvider>
       <Router>
         <Header></Header>
         <Switch>
@@ -22,7 +26,7 @@ function App() {
           <Route  path="/home">
             <Home></Home>
           </Route>
-          <Route  path="/loging">
+          <Route path="/login">
             <Login></Login>
           </Route>
           <Route  path="/doctor">
@@ -30,6 +34,9 @@ function App() {
           </Route>
           <Route  path="/aboutUs">
             <AboutUS></AboutUS>
+          </Route>
+          <Route path="/registration">
+            <Registration></Registration>
           </Route>
           <PrivateRoute path="/singleService/:serviceId">
             <SingleService></SingleService>
@@ -40,6 +47,7 @@ function App() {
         </Switch>
         <Footer></Footer>
       </Router>
+      </AuthProvider>
     </div>
   );
 }

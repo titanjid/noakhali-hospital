@@ -17,7 +17,6 @@ const Services = () => {
                 services.map(service=><Service
                 key={service.id}
                 service={service}
-                services={services}
                 ></Service>)
             }
             </div>

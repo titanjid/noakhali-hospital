@@ -1,5 +1,5 @@
 .login-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 400px;
+    padding-bottom: 203px;
+    margin:0 auto; 
 }

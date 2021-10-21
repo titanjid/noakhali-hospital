@@ -11,7 +11,7 @@ const Doctor = () => {
     return (
         <div>
             <h2 className="mt-4">Our Doctors</h2>
-            <div className="row row-cols-1 row-cols-md-3 g-4 container">
+            <div className="row row-cols-1 row-cols-md-3 row-cols-sm-12 g-4 container">
                 {
                     doctors.map(doctor=><SingleDoctor
                     key={doctor.id}
