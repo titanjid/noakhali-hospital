@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Noakhali Hospital
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live-Site-Link:https://noakhali-hospital.web.app/
+## Our Services
 
-## Available Scripts
 
-In the project directory, you can run:
+### `Dental services`
 
-### `npm start`
+Dentists and oral surgeons are often appointed to a hospital's medical staff to provide dental services to emergency department patients and inpatients when needed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### `Hospice care`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Hospice care is for people who are nearing the end of life. The services are provided by a team of health care professionals who maximize comfort for a person.
 
-### `npm test`
+### `Infectious disease clinics`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The Infectious Diseases Clinic provides inpatient, outpatient and ambulatory services for patients who have been diagnosed with an infectious disease or who are at risk of an infectious disease.
 
-### `npm run build`
+### `Mental health and drug treatment`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Welcome to the Tennessee Department of Mental Health and Substance Abuse Services ... psychiatric admissions at three private hospitals in East Tennessee.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `Primary care services`
+Primary care provides patient advocacy in the health care system to accomplish cost-effective and equitable care by coordination of health care services.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Translation and interpreter services`
+Health care's most-trusted language-access partnerFor nearly four decades, LanguageLine has faithfully delivered world-class interpretation and translation to caregivers.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Note:Hospital-based services Managed care Medical and other services provided
+to a nonadmitted Pt,by a hospital or other qualified facility–eg, mental
+health clinic, rural health clinic, mobile X-ray unit , free standing
+dialysis unit Examples Physical therapy, diagnostic X-ray , lab tests.
+See Ambulatory services.Hospitals are important to treat minor and serious
+diseases, illnesses and disorders of the body function of varying typesand
+severity.Hospitals also help promote health give information on prevention
+of illnesses and as well offer curative services.!**

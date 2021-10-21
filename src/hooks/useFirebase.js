@@ -7,12 +7,11 @@ initializeAuthentication();
 
 const useFirebase = () => {
     const [user, setUser] = useState({});
+    const [loading, setLoading] = useState(true)
     const [email,setEmail]=useState();
     const [DisplayName,setDisplayName]=useState();
     const [erorr,setErorr]=useState();
-
     const [password,setPassword]=useState();
-    const [loading, setLoading] = useState(true)
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
 
@@ -29,29 +28,41 @@ const useFirebase = () => {
     }
     const handleNewUser = e => {
         e.preventDefault();
-        if(password.length < 6){
+        if(password.length < 6  ){
             setErorr("Password should be at least 6 characters")
             return;
         }
         createUserWithEmailAndPassword(auth,email,password,DisplayName)
+        .catch((error) => {
+            const errorMessage = error.message;
+            setErorr(errorMessage)
+        })
         
     }
-    const loginWithEmailAndPassword=(email,password)=>{
+    const loginWithEmailAndPassword=(e,email,password)=>{
+        e.preventDefault();
         signInWithEmailAndPassword(auth, email, password)
-         .then((userCredential) => {
-          const user = userCredential.user;
+         .then((result) => {
+          const user = result.user;
           setUser(user)
          });
+         
     }
 
     const signInUsingGoogle = () => {
+        setLoading(true);
         return signInWithPopup(auth, googleProvider)
         .then((userCredential) => {
           const user = userCredential.user;
           setUser(user)
         })
-            .finally(() => { setLoading(false) });
+        .catch((error) => {
+            const errorMessage = error.message;
+            setErorr(errorMessage)
+        })
+         .finally(() => setLoading(false));
     }
+
     const logOut = () => {
         setLoading(true);
         signOut(auth)
@@ -62,16 +73,16 @@ const useFirebase = () => {
     }
 
     useEffect(() => {
-        const unsubscribe = onAuthStateChanged(auth, (user) => {
+        const unsubscribed = onAuthStateChanged(auth, user => {
             if (user) {
                 setUser(user);
             }
             else {
-                setUser({});
+                setUser({})
             }
             setLoading(false);
         });
-        return () => unsubscribe;
+        return () => unsubscribed;
     }, [])
 
     return {
