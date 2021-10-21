@@ -24,15 +24,7 @@ Welcome to the Tennessee Department of Mental Health and Substance Abuse Service
 Primary care provides patient advocacy in the health care system to accomplish cost-effective and equitable care by coordination of health care services.
 
 ### `Translation and interpreter services`
-Health care's most-trusted language-access partnerFor nearly four decades, LanguageLine has faithfully delivered world-class interpretation and translation to caregivers.
 
 
 
-**Note:Hospital-based services Managed care Medical and other services provided
-to a nonadmitted Pt,by a hospital or other qualified facility–eg, mental
-health clinic, rural health clinic, mobile X-ray unit , free standing
-dialysis unit Examples Physical therapy, diagnostic X-ray , lab tests.
-See Ambulatory services.Hospitals are important to treat minor and serious
-diseases, illnesses and disorders of the body function of varying typesand
-severity.Hospitals also help promote health give information on prevention
-of illnesses and as well offer curative services.!**
+**Note: Nokhali Hospital Ltd was borne out of a vision to provide a complete and one-stop healthcare solution to the people of Bangladesh.!**
